@@ -1,0 +1,21 @@
+{
+  "name": "@creftys/database",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --watch --format esm",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@creftys/shared-types": "workspace:*",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}

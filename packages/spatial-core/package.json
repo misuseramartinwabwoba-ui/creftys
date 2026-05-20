@@ -1,0 +1,22 @@
+{
+  "name": "@creftys/spatial-core",
+  "version": "1.0.0",
+  "private": true,
+
+  "type": "module",
+
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rimraf dist",
+    "typecheck": "tsc --noEmit"
+  },
+
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
