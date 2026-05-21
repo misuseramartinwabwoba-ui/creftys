@@ -1,0 +1,42 @@
+{
+  "name": "@creftys/property-core",
+  "version": "1.0.0",
+  "description": "Canonical property domain engine for CREFTYS / OwnIt UG ecosystem",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+
+  "scripts": {
+    "clean": "rimraf dist",
+
+    "build": "tsup",
+    "dev": "tsup --watch",
+
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+
+    "test": "jest --runInBand --config jest.config.ts",
+    "test:unit": "jest --runInBand --config jest.config.ts src/tests/unit",
+    "test:domain": "jest --runInBand --config jest.config.ts src/tests/domain",
+    "test:lifecycle": "jest --runInBand --config jest.config.ts src/tests/lifecycle",
+    "test:uganda": "jest --runInBand --config jest.config.ts src/tests/uganda-reality",
+
+    "test:smoke": "jest --runInBand --config jest.config.ts src/tests/smoke"
+  },
+
+  "dependencies": {
+    "@creftys/shared-types": "workspace:*",
+    "@creftys/spatial-core": "workspace:*"
+  },
+
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.10",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.2",
+    "rimraf": "^6.1.3"
+  }
+}

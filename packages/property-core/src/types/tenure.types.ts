@@ -1,1 +1,7 @@
-export type TenureType = 'mailo' | 'freehold' | 'leasehold' | 'customary';
+export type TenureType =
+  | 'mailo'
+  | 'freehold'
+  | 'leasehold'
+  | 'customary'
+  | 'kibanja'
+  | 'busuulu';
