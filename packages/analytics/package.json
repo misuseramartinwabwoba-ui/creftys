@@ -1,0 +1,21 @@
+{
+  "name": "@creftys/analytics",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --watch",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@creftys/shared-types": "workspace:*",
+    "@creftys/property-core": "workspace:*",
+    "@creftys/spatial-core": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.4.0",
+    "rimraf": "^5.0.5"
+  }
+}

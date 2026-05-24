@@ -1,37 +1,42 @@
-import type { PropertyBase } from "../../property-base/property-base.types";
+import type { PropertyBase } from '../../property-base/property-base.types';
 
-/**
- * PROPERTY CORE PRINCIPLE:
- * A property MUST always represent a legally + spatially valid unit of land or structure
- */
 export function createMockProperty(): PropertyBase {
   return {
-    id: "PROP-001",
-    
-    title: "Test Property",
+    id: 'PROP-001',
 
-    brokerId: "BROKER-001",
+    title: 'Sample Uganda Property',
+
+    district: 'Wakiso',
+
+    brokerId: 'BROKER-001',
+
+    status: 'LISTED',
+
+    tenure: {
+      type: 'MAILO',
+      region: 'Buganda'
+    },
 
     parcel: {
-      id: "PARCEL-001",
-      area: 1200,
-      unit: "sqm",
+      id: 'PARCEL-001',
+
+      area: {
+        value: 1200,
+        unit: 'sqm',
+        normalizedSqm: 1200
+      },
+
+      unit: 'sqm',
+
+      latitude: 0.347596,
+      longitude: 32.582520,
+
       coordinate: {
-        lat: 0.3476,
-        lng: 32.5825
+        lat: 0.347596,
+        lng: 32.582520
       }
     },
 
-    tenure: {
-      type: "MAILO",
-      region: "BUGANDA"
-    },
-
-    status: "DRAFT",
-
-    spatial: {
-      accuracy: "HIGH",
-      source: "SURVEY"
-    }
+    createdAt: new Date()
   };
 }

@@ -1,0 +1,855 @@
+{
+  "root": "creftys",
+  "generatedAt": "2026-05-22T13:09:44.997Z",
+  "packages": [
+    {
+      "name": "analytics",
+      "tree": [
+        {
+          "type": "dir",
+          "name": "src",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "auth",
+      "tree": [
+        {
+          "type": "dir",
+          "name": "src",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "bridge-core",
+      "tree": [
+        {
+          "type": "dir",
+          "name": "src",
+          "children": [
+            {
+              "type": "dir",
+              "name": "adapters",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "legal.adapter.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property.adapter.ts"
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "bridge.engine.ts"
+            },
+            {
+              "type": "file",
+              "name": "event.normalizer.ts"
+            },
+            {
+              "type": "dir",
+              "name": "events",
+              "children": []
+            },
+            {
+              "type": "file",
+              "name": "index.ts"
+            },
+            {
+              "type": "dir",
+              "name": "mappers",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "agent.mapper.ts"
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "signal.builder.ts"
+            },
+            {
+              "type": "dir",
+              "name": "signals",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "commission-engine",
+      "tree": [
+        {
+          "type": "dir",
+          "name": "src",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "database",
+      "tree": [
+        {
+          "type": "file",
+          "name": "package.json"
+        },
+        {
+          "type": "dir",
+          "name": "src",
+          "children": [
+            {
+              "type": "file",
+              "name": "index.ts"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "tsconfig.json"
+        }
+      ]
+    },
+    {
+      "name": "lead-engine",
+      "tree": [
+        {
+          "type": "dir",
+          "name": "src",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "legal-core",
+      "tree": [
+        {
+          "type": "file",
+          "name": "busulu-engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "busulu.engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "caveat-engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "dispute-detector.ts"
+        },
+        {
+          "type": "file",
+          "name": "dispute-engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "endagaano-engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "endagaano.engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "foreign-ownership.ts"
+        },
+        {
+          "type": "file",
+          "name": "index.ts"
+        },
+        {
+          "type": "file",
+          "name": "kibanja-engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "legal-risk.engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "legal-validation.ts"
+        },
+        {
+          "type": "file",
+          "name": "legal.types.ts"
+        },
+        {
+          "type": "file",
+          "name": "mailo-engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "mailo-kibanja.engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "ownership-graph.ts"
+        },
+        {
+          "type": "file",
+          "name": "ownership.types.ts"
+        },
+        {
+          "type": "file",
+          "name": "package.json"
+        },
+        {
+          "type": "dir",
+          "name": "src",
+          "children": [
+            {
+              "type": "file",
+              "name": "index.ts"
+            },
+            {
+              "type": "file",
+              "name": "mailo.ts"
+            },
+            {
+              "type": "file",
+              "name": "ownership.ts"
+            },
+            {
+              "type": "file",
+              "name": "tenure.ts"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "tenure-engine.ts"
+        },
+        {
+          "type": "file",
+          "name": "title-status.ts"
+        },
+        {
+          "type": "file",
+          "name": "title-verification.engine.ts"
+        }
+      ]
+    },
+    {
+      "name": "measurement-core",
+      "tree": [
+        {
+          "type": "file",
+          "name": "package.json"
+        },
+        {
+          "type": "dir",
+          "name": "src",
+          "children": [
+            {
+              "type": "file",
+              "name": "area.ts"
+            },
+            {
+              "type": "file",
+              "name": "index.ts"
+            },
+            {
+              "type": "file",
+              "name": "units.ts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "property-core",
+      "tree": [
+        {
+          "type": "file",
+          "name": ".gitignore"
+        },
+        {
+          "type": "file",
+          "name": "jest.config.ts"
+        },
+        {
+          "type": "file",
+          "name": "package.json"
+        },
+        {
+          "type": "file",
+          "name": "README.md"
+        },
+        {
+          "type": "dir",
+          "name": "src",
+          "children": [
+            {
+              "type": "dir",
+              "name": "contracts",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "busuulu.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "endagaano.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "entities",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "parcel.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property.factory.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "title.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "identity",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "duplicate-detector.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "index.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "ownership-lineage.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "parcel-signature.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-fingerprint.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-hash.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "title-linker.ts"
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "index.ts"
+            },
+            {
+              "type": "dir",
+              "name": "lifecycle",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "property.lifecycle.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "mappers",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "property.mapper.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "property-base",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "index.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-base.entity.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-base.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-intelligence.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-legal.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-market.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-measurements.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-relations.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-spatial.types.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "services",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "property.service.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "spatial",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "landmark.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "location.types.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "tests",
+              "children": [
+                {
+                  "type": "dir",
+                  "name": "domain",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "property-base.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "uganda-land.test.ts"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "fixtures",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "createMockProperty.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "invalid-property.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "valid-property.ts"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "legal",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "endagaano-engine.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "foreign-ownership.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "mailo-engine.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "title-status.test.ts"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "lifecycle",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "property-lifecycle.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "property.lifecycle.test.ts"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "location",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "distance-engine.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "growth-corridor.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "location-trust.test.ts"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "measurement",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "plot-parser.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "subdivision-engine.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "unit-conversion.test.ts"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "smoke",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "smoke.test.ts"
+                    }
+                  ]
+                },
+                {
+                  "type": "file",
+                  "name": "tsup.config.ts"
+                },
+                {
+                  "type": "dir",
+                  "name": "uganda-reality",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "busulu-system.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "mailo-kibanja.test.ts"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "unit",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "measurement-conversion.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "property.validation.test.ts"
+                    }
+                  ]
+                },
+                {
+                  "type": "dir",
+                  "name": "valuation",
+                  "children": [
+                    {
+                      "type": "file",
+                      "name": "location-multiplier.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "speculation-engine.test.ts"
+                    },
+                    {
+                      "type": "file",
+                      "name": "valuation-engine.test.ts"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "types",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "category.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "discriminated-unions.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "measurement.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "parcel.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property-base.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "status.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "tenure.types.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "title.types.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "utils",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "geo.utils.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "validation",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "property.rules.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "property.validation.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "uganda.rules.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "validateDiaspora.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "validateFarmland.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "validateProperty.ts"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "tsconfig.json"
+        },
+        {
+          "type": "file",
+          "name": "tsup.config.ts"
+        }
+      ]
+    },
+    {
+      "name": "shared-types",
+      "tree": [
+        {
+          "type": "file",
+          "name": "package.json"
+        },
+        {
+          "type": "dir",
+          "name": "src",
+          "children": [
+            {
+              "type": "file",
+              "name": "index.ts"
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "tsconfig.json"
+        }
+      ]
+    },
+    {
+      "name": "spatial-core",
+      "tree": [
+        {
+          "type": "file",
+          "name": "package.json"
+        },
+        {
+          "type": "dir",
+          "name": "src",
+          "children": [
+            {
+              "type": "dir",
+              "name": "core",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "constants.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "SpatialEngine.ts"
+                },
+                {
+                  "type": "file",
+                  "name": "types.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "engines",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "createEngine.ts"
+                }
+              ]
+            },
+            {
+              "type": "dir",
+              "name": "geometry",
+              "children": []
+            },
+            {
+              "type": "dir",
+              "name": "grid",
+              "children": []
+            },
+            {
+              "type": "file",
+              "name": "index.ts"
+            },
+            {
+              "type": "dir",
+              "name": "legacy",
+              "children": []
+            },
+            {
+              "type": "dir",
+              "name": "validation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "tsconfig.json"
+        },
+        {
+          "type": "file",
+          "name": "tsup"
+        },
+        {
+          "type": "file",
+          "name": "tsup.config.ts"
+        }
+      ]
+    },
+    {
+      "name": "ui-system",
+      "tree": [
+        {
+          "type": "dir",
+          "name": "src",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "verification-engine",
+      "tree": [
+        {
+          "type": "dir",
+          "name": "src",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "name": "api-gateway",
+      "tree": []
+    },
+    {
+      "name": "creftys-admin",
+      "tree": []
+    },
+    {
+      "name": "field-verification-app",
+      "tree": []
+    },
+    {
+      "name": "ownitug-agent-hub",
+      "tree": []
+    },
+    {
+      "name": "ownitug-web",
+      "tree": []
+    }
+  ]
+}

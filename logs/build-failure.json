@@ -1,0 +1,5 @@
+{
+  "package": "@creftys/economic-engine",
+  "error": "Command failed: pnpm --filter @creftys/economic-engine build",
+  "timestamp": "2026-05-23T14:34:26.937Z"
+}

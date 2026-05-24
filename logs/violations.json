@@ -1,0 +1,221 @@
+{
+  "passed": false,
+  "failed": [
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "analytics",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "analytics",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "auth",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "auth",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "commission-engine",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "commission-engine",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "database",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "economic-engine",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "economic-engine",
+      "file": "package.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "economic-engine",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "identity-core",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "identity-core",
+      "file": "package.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "identity-core",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "ingestion-core",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "ingestion-core",
+      "file": "package.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "ingestion-core",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "lead-engine",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "lead-engine",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "legal-core",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "measurement-core",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "measurement-core",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "shared-config",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "shared-config",
+      "file": "package.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "shared-config",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "shared-types",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "social-graph",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "social-graph",
+      "file": "package.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "social-graph",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "spatial-core",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "src",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "src",
+      "file": "package.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "src",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "ui-system",
+      "file": "README.md"
+    },
+    {
+      "type": "MISSING_REQUIRED_FILE",
+      "package": "ui-system",
+      "file": "tsconfig.json"
+    },
+    {
+      "type": "NO_DEPENDENTS",
+      "package": "@creftys/analytics",
+      "detail": "Unused by any other package"
+    },
+    {
+      "type": "NO_DEPENDENTS",
+      "package": "@creftys/auth",
+      "detail": "Unused by any other package"
+    },
+    {
+      "type": "NO_DEPENDENTS",
+      "package": "@creftys/bridge-core",
+      "detail": "Unused by any other package"
+    },
+    {
+      "type": "NO_DEPENDENTS",
+      "package": "@creftys/commission-engine",
+      "detail": "Unused by any other package"
+    },
+    {
+      "type": "NO_DEPENDENTS",
+      "package": "@creftys/database",
+      "detail": "Unused by any other package"
+    },
+    {
+      "type": "NO_DEPENDENTS",
+      "package": "@creftys/lead-engine",
+      "detail": "Unused by any other package"
+    },
+    {
+      "type": "HIGH_DEPENDENCY_FANOUT",
+      "package": "@creftys/property-core",
+      "count": 7,
+      "detail": "Too many internal deps"
+    },
+    {
+      "type": "NO_DEPENDENTS",
+      "package": "@creftys/ui-system",
+      "detail": "Unused by any other package"
+    },
+    {
+      "type": "NO_DEPENDENTS",
+      "package": "@creftys/verification-engine",
+      "detail": "Unused by any other package"
+    }
+  ]
+}

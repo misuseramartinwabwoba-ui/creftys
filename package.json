@@ -9,7 +9,22 @@
     "typecheck": "pnpm -r exec tsc --noEmit",
     "lint": "turbo run lint",
     "clean": "turbo run clean",
-    "lint:deps": "node scripts/dependency-lint.js"
+    "lint:deps": "node scripts/dependency-lint.js",
+    "arch:check": "node scripts/ci/architecture-check.js",
+    "lint:arch": "node scripts/dependency-lint.js",
+    "lint:cycles": "madge --circular packages",
+    "repo:map": "node scripts/recreate-repo-map.js",
+    "repo:introspect": "node scripts/repo-introspect.js",
+    "repo:core": "node scripts/repo-core/index.js",
+    "dev:runtime": "node scripts/runtime/index.js",
+    "build:system": "node scripts/build-all.js",
+    "repo:check": "node scripts/ci/architecture-check.js",
+    "governance:check": "node scripts/ci/governance-check.js",
+    "test:governance": "jest governance/tests",
+    "audit:workspace": "node scripts/build-all.js",
+    "governance:report": "node scripts/build-all.js",
+    "test:optimisation": "jest ai/graph-optimizer/__tests__",
+    "test": "pnpm run test:optimisation && pnpm run test:governance"
   },
   "dependencies": {
     "date-fns": "^4.2.1",
@@ -18,10 +33,18 @@
   },
   "devDependencies": {
     "@types/node": "^25.9.0",
+    "dependency-cruiser": "^17.4.0",
     "eslint": "^10.4.0",
+    "jest": "^30.4.2",
+    "madge": "^8.0.0",
     "prettier": "^3.6.2",
-    "turbo": "^2.5.6",
     "tsup": "^8.5.1",
-    "typescript": "^6.0.3"
+    "turbo": "^2.5.6",
+    "typescript": "^5.4.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "typescript": "5.4.5"
+    }
   }
 }

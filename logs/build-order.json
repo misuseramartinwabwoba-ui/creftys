@@ -1,0 +1,23 @@
+[
+  "@creftys/analytics",
+  "@creftys/auth",
+  "@creftys/bridge-core",
+  "@creftys/commission-engine",
+  "@creftys/database",
+  "@creftys/economic-engine",
+  "@creftys/identity-core",
+  "@creftys/ingestion-core",
+  "@creftys/lead-engine",
+  "@creftys/shared-config",
+  "@creftys/social-graph",
+  "@creftys/ui-system",
+  "@creftys/verification-engine",
+  "@creftys/property-core",
+  "@creftys/spatial-core",
+  "@creftys/legal-core",
+  "@creftys/validation-core",
+  "@creftys/location-core",
+  "@creftys/measurement-core",
+  "@creftys/valuation-core",
+  "@creftys/shared-types"
+]

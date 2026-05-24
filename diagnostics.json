@@ -1,0 +1,81 @@
+{
+  "scannedAt": "2026-05-24T00:00:00Z",
+  "scanType": "read-only",
+  "packageManager": "pnpm@10.28.2",
+  "manifests": [
+    "package.json",
+    "packages/analytics/package.json",
+    "packages/auth/package.json",
+    "packages/bridge-core/package.json",
+    "packages/commission-engine/package.json",
+    "packages/database/package.json",
+    "packages/economic-engine/package.json",
+    "packages/identity-core/package.json",
+    "packages/ingestion-core/package.json",
+    "packages/lead-engine/package.json",
+    "packages/legal-core/package.json",
+    "packages/location-core/package.json",
+    "packages/measurement-core/package.json",
+    "packages/property-core/package.json",
+    "packages/shared-config/package.json",
+    "packages/shared-types/package.json",
+    "packages/social-graph/package.json",
+    "packages/spatial-core/package.json",
+    "packages/ui-system/package.json",
+    "packages/validation-core/package.json",
+    "packages/valuation-core/package.json",
+    "packages/verification-engine/package.json"
+  ],
+  "rootScripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "typecheck": "pnpm -r exec tsc --noEmit",
+    "lint": "turbo run lint",
+    "test": "pnpm run test:optimisation && pnpm run test:governance"
+  },
+  "pnpmWorkspace": {
+    "packages": ["apps/*", "packages/*", "infrastructure/*", "scripts", "docs"],
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "tsconfigReferences": [
+    "./packages/shared-types",
+    "./packages/spatial-core",
+    "./packages/database"
+  ],
+  "runtimesChecked": true,
+  "runtimes": {
+    "node": "v24.13.0",
+    "pnpm": "10.28.2",
+    "npm": "11.6.2",
+    "python": "3.14.3",
+    "pip": "25.3",
+    "java": null,
+    "dotnet": null,
+    "docker": null
+  },
+  "typecheck": {
+    "status": "fixed-local",
+    "fixesApplied": [
+      {
+        "file": "packages/ingestion-core/src/ingestion-core.ts",
+        "change": "Renamed invalid identifier `ingestion-core` to `ingestionCore` to correct TypeScript syntax"
+      }
+    ],
+    "note": "Package-level typecheck for `ingestion-core` passed after the fix. Consider re-running the full workspace typecheck to verify across all packages."
+  },
+  "lint": {
+    "status": "no_tasks_executed",
+    "note": "Turbo reported 'No tasks were executed as part of this run.' Investigate per-package lint scripts or Turbo task configuration."
+  },
+  "suggestedCommands": [
+    "node -v",
+    "pnpm -v",
+    "npm -v",
+    "python -V",
+    "pip --version",
+    "java -version",
+    "dotnet --info",
+    "docker --version"
+  ],
+  "notes": "No Python manifests or Dockerfiles found in a shallow read-only scan. Java, .NET (dotnet) and Docker were not found on PATH. Versions were collected for Node, pnpm, npm, Python, and pip."
+}

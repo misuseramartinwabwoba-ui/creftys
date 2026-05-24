@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-05-24T03:02:03.415Z",
+  "summary": {
+    "score": 100,
+    "grade": "A",
+    "violations": 0
+  },
+  "audit": {
+    "packages": [
+      "X:\\creftys\\packages\\analytics",
+      "X:\\creftys\\packages\\auth",
+      "X:\\creftys\\packages\\bridge-core",
+      "X:\\creftys\\packages\\commission-engine",
+      "X:\\creftys\\packages\\database",
+      "X:\\creftys\\packages\\economic-engine",
+      "X:\\creftys\\packages\\identity-core",
+      "X:\\creftys\\packages\\ingestion-core",
+      "X:\\creftys\\packages\\lead-engine",
+      "X:\\creftys\\packages\\legal-core",
+      "X:\\creftys\\packages\\location-core",
+      "X:\\creftys\\packages\\measurement-core",
+      "X:\\creftys\\packages\\property-core",
+      "X:\\creftys\\packages\\shared-config",
+      "X:\\creftys\\packages\\shared-types",
+      "X:\\creftys\\packages\\social-graph",
+      "X:\\creftys\\packages\\spatial-core",
+      "X:\\creftys\\packages\\ui-system",
+      "X:\\creftys\\packages\\validation-core",
+      "X:\\creftys\\packages\\valuation-core",
+      "X:\\creftys\\packages\\verification-engine"
+    ],
+    "failed": []
+  },
+  "ruleResults": {
+    "passed": true,
+    "violations": []
+  },
+  "violations": {
+    "passed": true,
+    "failed": []
+  }
+}

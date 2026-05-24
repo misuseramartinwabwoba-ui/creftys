@@ -1,5 +1,5 @@
 import type { Measurement } from '../types/measurement.types';
-import type { Location } from '../spatial/location.types';
+import type { Coordinate as Location } from '@creftys/spatial-core';
 
 export interface Parcel {
   id: string;

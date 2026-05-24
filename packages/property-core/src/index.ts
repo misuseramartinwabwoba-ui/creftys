@@ -1,14 +1,13 @@
-/**
- * Property Core Bootstrap Layer
- * System is being rebuilt in controlled phases.
- */
+// SAFE PUBLIC API SURFACE (PHASE 3 STABILIZATION)
 
-export type * from './types/category.types';
-export type * from './types/status.types';
-export type * from './types/tenure.types';
-export type * from './types/parcel.types';
-export type * from './types/title.types';
+export * from './entities/property';
+export { Parcel as ParcelEntity } from './entities/parcel';
+export { Title as TitleEntity } from './entities/title';
 
-export * from './validation/validateProperty';
-export * from './validation/validateFarmland';
-export * from './validation/validateDiaspora';
+export * from './identity/property-hash';
+export * from './identity/duplicate-detector';
+
+// Export stable type names. Note: `property-base.types` and `services/property.service`
+// are intentionally not re-exported here because they are currently empty modules.
+export * from './types/parcel.types';
+export * from './types/title.types';

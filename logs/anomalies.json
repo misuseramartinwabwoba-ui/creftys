@@ -1,0 +1,73 @@
+[
+  {
+    "type": "NO_DEPENDENTS",
+    "package": "@creftys/analytics",
+    "detail": "Unused by any other package"
+  },
+  {
+    "type": "NO_DEPENDENTS",
+    "package": "@creftys/auth",
+    "detail": "Unused by any other package"
+  },
+  {
+    "type": "NO_DEPENDENTS",
+    "package": "@creftys/bridge-core",
+    "detail": "Unused by any other package"
+  },
+  {
+    "type": "NO_DEPENDENTS",
+    "package": "@creftys/commission-engine",
+    "detail": "Unused by any other package"
+  },
+  {
+    "type": "NO_DEPENDENTS",
+    "package": "@creftys/database",
+    "detail": "Unused by any other package"
+  },
+  {
+    "type": "ISOLATED_PACKAGE",
+    "package": "@creftys/economic-engine",
+    "detail": "No internal deps, not depended upon"
+  },
+  {
+    "type": "ISOLATED_PACKAGE",
+    "package": "@creftys/identity-core",
+    "detail": "No internal deps, not depended upon"
+  },
+  {
+    "type": "ISOLATED_PACKAGE",
+    "package": "@creftys/ingestion-core",
+    "detail": "No internal deps, not depended upon"
+  },
+  {
+    "type": "NO_DEPENDENTS",
+    "package": "@creftys/lead-engine",
+    "detail": "Unused by any other package"
+  },
+  {
+    "type": "HIGH_DEPENDENCY_FANOUT",
+    "package": "@creftys/property-core",
+    "count": 7,
+    "detail": "Too many internal deps"
+  },
+  {
+    "type": "ISOLATED_PACKAGE",
+    "package": "@creftys/shared-config",
+    "detail": "No internal deps, not depended upon"
+  },
+  {
+    "type": "ISOLATED_PACKAGE",
+    "package": "@creftys/social-graph",
+    "detail": "No internal deps, not depended upon"
+  },
+  {
+    "type": "NO_DEPENDENTS",
+    "package": "@creftys/ui-system",
+    "detail": "Unused by any other package"
+  },
+  {
+    "type": "NO_DEPENDENTS",
+    "package": "@creftys/verification-engine",
+    "detail": "Unused by any other package"
+  }
+]
